@@ -2,12 +2,12 @@
 class Subconv < Formula
   desc "Package Description"
   homepage "https://github.com/kashelkin/SubConv"
-  version "0.1.0"
+  version "0.1.1"
   license "mit"
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kashelkin/SubConv/releases/download/0.1.0/subconv.0.1.0.osx-x64.tar.gz"
-      sha256 "fb43467eb454cf85cc22a7e0c7a531d0f8952e7f455247436ce8be4d046362eb"
+      url "https://github.com/kashelkin/SubConv/releases/download/0.1.1/subconv.0.1.1.osx-x64.tar.gz"
+      sha256 "82d60f0ee38743da647b0661808959368d2cfa5646510581f6af8a414a335fac"
 
       def install
         cp_r '.', bin
@@ -15,8 +15,8 @@ class Subconv < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kashelkin/SubConv/releases/download/0.1.0/subconv.0.1.0.osx-arm64.tar.gz"
-      sha256 "177f183f93598a0ef36f688a6e04cc10788298a12946151d9e076f36c33133cf"
+      url "https://github.com/kashelkin/SubConv/releases/download/0.1.1/subconv.0.1.1.osx-arm64.tar.gz"
+      sha256 "faa2ee4fe162a94e1a01cc9ba8961e53a5bb2cf5aa5acd35904dbd8f57e564fc"
 
       def install
         cp_r '.', bin
@@ -26,8 +26,8 @@ class Subconv < Formula
   end
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kashelkin/SubConv/releases/download/0.1.0/subconv.0.1.0.linux-x64.tar.gz"
-      sha256 "0586e7a45d49c129651e5f1a0fac8e2a800a8daffbfc6fc3dbe8f67bad47cba6"
+      url "https://github.com/kashelkin/SubConv/releases/download/0.1.1/subconv.0.1.1.linux-x64.tar.gz"
+      sha256 "a89a30fc8bd1b2d6c5ab855248f28b14cc9fa1099b47467a41eade6d026da8fa"
 
       def install
         cp_r '.', bin
@@ -35,8 +35,8 @@ class Subconv < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_32_bit?
-      url "https://github.com/kashelkin/SubConv/releases/download/0.1.0/subconv.0.1.0.linux-arm.tar.gz"
-      sha256 "26304718fbd45de26509b109988be8f496643534d211abb1954e618da4762e6c"
+      url "https://github.com/kashelkin/SubConv/releases/download/0.1.1/subconv.0.1.1.linux-arm.tar.gz"
+      sha256 "be64236a25f0e1c59f03a4952d22c367c7720b4c1ae07a01fd1dfb20af40649f"
 
       def install
         cp_r '.', bin
@@ -44,8 +44,8 @@ class Subconv < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kashelkin/SubConv/releases/download/0.1.0/subconv.0.1.0.linux-arm64.tar.gz"
-      sha256 "cee1cc5f6c175a1e96744dbe3ac923227754b1e7614976424147ca4f859baedd"
+      url "https://github.com/kashelkin/SubConv/releases/download/0.1.1/subconv.0.1.1.linux-arm64.tar.gz"
+      sha256 "a88784e75714fc83e072964e0442835a5345f0ed41645282a72fa99e2482b6fa"
 
       def install
         cp_r '.', bin
